@@ -28,7 +28,7 @@ mean, eigenvectors = cv2.PCACompute(covMatrix,np.mean(covMatrix,axis=0).reshape(
 print(mean)
 print(np.mean(covMatrix,axis=0))
 print(np.mean(covMatrix,axis=0).reshape(1,-1))
-#print(eigenvectors)
+print(eigenvectors)
 
 
         
